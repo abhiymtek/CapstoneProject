@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Template</title>
+    <style>
+        img{
+            width: 300px;
+            height: 300px;
+        }
+        .box-container .box{
+            border: 10px solid black;
+            margin-left: 45px;
+            margin-right: 45px;
+            margin-bottom: 20px;
+            text-align: center;
+            background-color: rgb(116, 229, 118);
+        }
+    </style>
+</head> 
+<body>
+        <p style="text-align: center; font-size:xx-large;"><b>TEMPLATE SHOP</b></p>
+    
+            <div class="box-container">
+        
+                <div class="box" style="float: left;">
+                    <img src="IndexPage.png" alt="">
+                    <h3>Home Page</h3>
+                    <a href="index.html" class="btn" style="border: 1px solid red; background-color: red; margin-bottom: 2px;">View page</a>
+                </div>
+        
+                <div class="box" style="float: left;"">
+                    <img src="AboutUs.png" alt="">
+                    <h3>About Us Page</h3>
+                    <a href="aboutUs.html" class="btn" style="border: 1px solid red; background-color: red; margin-bottom: 2px;">View Page</a>
+                </div>
+        
+                <div class="box" style="float: left;"">
+                    <img src="ContactUs.png" alt="">
+                    <h3>Contact Page</h3>
+                    <a href="contactus.html" class="btn" style="border: 1px solid red; background-color: red; margin-bottom: 2px;">View page</a>
+                </div>
+                <br>
+                <div class="purchase" style="text-align: center;">
+                    <button onclick="fun()">PURCHASE</button>
+                </div>
+            </div>
+            <script>
+                function fun(){
+                    alert("Thankyou for purchasing");
+                }
+            </script>
+</body>
+</html>
